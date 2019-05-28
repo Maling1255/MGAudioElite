@@ -14,6 +14,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, strong) UIView *contentView;
 
+- (void)setImageBackgroundView;
+
+- (void)setVideoView;
+
 @end
 
 NS_ASSUME_NONNULL_END
+
+
+@interface MGVideoBackView : UIView
+@end

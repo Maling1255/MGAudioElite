@@ -24,6 +24,7 @@
 		F8072720229BC1110011C28F /* dian.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F807271D229BC1110011C28F /* dian.mp3 */; };
 		F8072721229BC1110011C28F /* 54321.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F807271E229BC1110011C28F /* 54321.mp3 */; };
 		F8072724229BF9AA0011C28F /* MGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8072723229BF9AA0011C28F /* MGBaseViewController.m */; };
+		F853E72C229D238300A22B6B /* MGAudioTypeOption.m in Sources */ = {isa = PBXBuildFile; fileRef = F853E72B229D238300A22B6B /* MGAudioTypeOption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,8 @@
 		F807271E229BC1110011C28F /* 54321.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 54321.mp3; sourceTree = "<group>"; };
 		F8072722229BF9AA0011C28F /* MGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGBaseViewController.h; sourceTree = "<group>"; };
 		F8072723229BF9AA0011C28F /* MGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGBaseViewController.m; sourceTree = "<group>"; };
+		F853E72A229D238300A22B6B /* MGAudioTypeOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAudioTypeOption.h; sourceTree = "<group>"; };
+		F853E72B229D238300A22B6B /* MGAudioTypeOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAudioTypeOption.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				F8072723229BF9AA0011C28F /* MGBaseViewController.m */,
 				F80726F9229BB83C0011C28F /* ViewController.h */,
 				F80726FA229BB83C0011C28F /* ViewController.m */,
+				F853E72A229D238300A22B6B /* MGAudioTypeOption.h */,
+				F853E72B229D238300A22B6B /* MGAudioTypeOption.m */,
 				F8072719229BBAE90011C28F /* MGAudioPlayTool.h */,
 				F807271A229BBAE90011C28F /* MGAudioPlayTool.m */,
 				F80726FC229BB83C0011C28F /* Main.storyboard */,
@@ -201,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F80726FB229BB83C0011C28F /* ViewController.m in Sources */,
+				F853E72C229D238300A22B6B /* MGAudioTypeOption.m in Sources */,
 				F8072706229BB83E0011C28F /* main.m in Sources */,
 				F8072724229BF9AA0011C28F /* MGBaseViewController.m in Sources */,
 				F807271B229BBAE90011C28F /* MGAudioPlayTool.m in Sources */,

@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MGAudioPlayTool.h"
+#import "MGAudioTypeOption.h"
 @interface ViewController ()
 
 
@@ -28,13 +29,13 @@
     
     NSLog(@"value: %f", sender.value);
     
-    [[MGAudioPlayTool sharedAudioPlayTool] setupPlayerVolume:sender.value musiceName:@"audio_1"];
+    [[MGAudioPlayTool sharedAudioPlayTool] setupPlayerVolume:sender.value musiceName:MGAuidoTypeSoundOfTheWind];
 }
 - (IBAction)setProgressValue2:(UISlider *)sender {
     
     NSLog(@"value2: %f", sender.value);
     
-    [[MGAudioPlayTool sharedAudioPlayTool] setupPlayerVolume:sender.value musiceName:@"audio_2"];
+    [[MGAudioPlayTool sharedAudioPlayTool] setupPlayerVolume:sender.value musiceName:MGAuidoTypeFantasy];
 }
 - (IBAction)clickPlayMusiceBtn:(id)sender {
 
@@ -54,7 +55,7 @@
     sender.selected = !sender.selected;
     NSString *name = nil;
     if (sender.tag == 0) {
-        name = @"audio_1";
+        name = MGAuidoTypeSoundOfTheWind;
         if(sender.selected) {
             [_musiceNameArray addObject:name];
         } else {
@@ -62,7 +63,7 @@
         }
         
     } else if (sender.tag == 1) {
-        name = @"audio_2";
+        name = MGAuidoTypeFantasy;
         if(sender.selected) {
             [_musiceNameArray addObject:name];
         } else {
@@ -70,7 +71,7 @@
         }
         
     } else if (sender.tag == 2) {
-        name = @"dian";
+        name = MGAuidoTypeDiSonorant;
         if(sender.selected) {
             [_musiceNameArray addObject:name];
         } else {
@@ -78,7 +79,7 @@
         }
         
     } else if (sender.tag == 3) {
-        name = @"321";
+        name =MGAuidoType321;
         if(sender.selected) {
             [_musiceNameArray addObject:name];
         } else {
@@ -91,6 +92,19 @@
     if (!sender.selected) {
         [[MGAudioPlayTool sharedAudioPlayTool] removePlayingMusiceName:name];
     }
+}
+
+
+- (IBAction)clickPattern1:(id)sender {
+    
+    [self setVideoView];
+    [self.view sendSubviewToBack:self.contentView];
+}
+
+- (IBAction)clickPattern2:(id)sender {
+    
+    [self setImageBackgroundView];
+    [self.view sendSubviewToBack:self.contentView];
 }
 
 
