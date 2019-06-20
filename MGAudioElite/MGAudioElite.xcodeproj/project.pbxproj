@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26C2F64CF8E85334C0B19588 /* Pods_MGAudioElite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259B92D7EAD0F6C27D6ACB55 /* Pods_MGAudioElite.framework */; };
 		F80726F8229BB83C0011C28F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F80726F7229BB83C0011C28F /* AppDelegate.m */; };
 		F80726FB229BB83C0011C28F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F80726FA229BB83C0011C28F /* ViewController.m */; };
 		F80726FE229BB83C0011C28F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80726FC229BB83C0011C28F /* Main.storyboard */; };
@@ -25,9 +26,15 @@
 		F8072721229BC1110011C28F /* 54321.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F807271E229BC1110011C28F /* 54321.mp3 */; };
 		F8072724229BF9AA0011C28F /* MGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8072723229BF9AA0011C28F /* MGBaseViewController.m */; };
 		F853E72C229D238300A22B6B /* MGAudioTypeOption.m in Sources */ = {isa = PBXBuildFile; fileRef = F853E72B229D238300A22B6B /* MGAudioTypeOption.m */; };
+		F8EA342222BB3328001FC462 /* rain_test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8EA342122BB3328001FC462 /* rain_test.mp3 */; };
+		F8F4289A22B2317D00D0F7AF /* Contemplate.ogg in Resources */ = {isa = PBXBuildFile; fileRef = F8F4289922B2317D00D0F7AF /* Contemplate.ogg */; };
+		F8F428A522B34DF100D0F7AF /* sssss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F8F428A422B34DF000D0F7AF /* sssss.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		259B92D7EAD0F6C27D6ACB55 /* Pods_MGAudioElite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGAudioElite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		281CE3AF3328C1FB791A7AEC /* Pods-MGAudioElite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGAudioElite.release.xcconfig"; path = "Target Support Files/Pods-MGAudioElite/Pods-MGAudioElite.release.xcconfig"; sourceTree = "<group>"; };
+		43EA1C6CB470F31626BF52E2 /* Pods-MGAudioElite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGAudioElite.debug.xcconfig"; path = "Target Support Files/Pods-MGAudioElite/Pods-MGAudioElite.debug.xcconfig"; sourceTree = "<group>"; };
 		F80726F3229BB83C0011C28F /* MGAudioElite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGAudioElite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80726F6229BB83C0011C28F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F80726F7229BB83C0011C28F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +60,9 @@
 		F8072723229BF9AA0011C28F /* MGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGBaseViewController.m; sourceTree = "<group>"; };
 		F853E72A229D238300A22B6B /* MGAudioTypeOption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAudioTypeOption.h; sourceTree = "<group>"; };
 		F853E72B229D238300A22B6B /* MGAudioTypeOption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAudioTypeOption.m; sourceTree = "<group>"; };
+		F8EA342122BB3328001FC462 /* rain_test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain_test.mp3; sourceTree = "<group>"; };
+		F8F4289922B2317D00D0F7AF /* Contemplate.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Contemplate.ogg; sourceTree = "<group>"; };
+		F8F428A422B34DF000D0F7AF /* sssss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sssss.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +70,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C2F64CF8E85334C0B19588 /* Pods_MGAudioElite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14571F8BD1430E0367153371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259B92D7EAD0F6C27D6ACB55 /* Pods_MGAudioElite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7372FA03AA003D43D75C9637 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43EA1C6CB470F31626BF52E2 /* Pods-MGAudioElite.debug.xcconfig */,
+				281CE3AF3328C1FB791A7AEC /* Pods-MGAudioElite.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F80726EA229BB83C0011C28F = {
 			isa = PBXGroup;
 			children = (
 				F80726F5229BB83C0011C28F /* MGAudioElite */,
 				F80726F4229BB83C0011C28F /* Products */,
+				7372FA03AA003D43D75C9637 /* Pods */,
+				14571F8BD1430E0367153371 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,13 +138,16 @@
 		F807270C229BB8BF0011C28F /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				F8EA342122BB3328001FC462 /* rain_test.mp3 */,
 				F807271C229BC1110011C28F /* 321.mp3 */,
 				F807271E229BC1110011C28F /* 54321.mp3 */,
 				F807271D229BC1110011C28F /* dian.mp3 */,
 				F807270E229BBA110011C28F /* audio_1.mp3 */,
 				F8072710229BBA110011C28F /* audio_2.mp3 */,
+				F8F428A422B34DF000D0F7AF /* sssss.mp3 */,
 				F807270F229BBA110011C28F /* image_1.jpg */,
 				F807270D229BBA110011C28F /* image_2.jpg */,
+				F8F4289922B2317D00D0F7AF /* Contemplate.ogg */,
 				F8072711229BBA110011C28F /* video_1.mp4 */,
 				F8072712229BBA110011C28F /* video_2.mp4 */,
 			);
@@ -128,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8072709229BB83E0011C28F /* Build configuration list for PBXNativeTarget "MGAudioElite" */;
 			buildPhases = (
+				C318D763D9FC0718C0D0FD4C /* [CP] Check Pods Manifest.lock */,
 				F80726EF229BB83C0011C28F /* Sources */,
 				F80726F0229BB83C0011C28F /* Frameworks */,
 				F80726F1229BB83C0011C28F /* Resources */,
+				18320ACC99C6F8B622C60BC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,20 +220,65 @@
 			files = (
 				F8072714229BBA110011C28F /* audio_1.mp3 in Resources */,
 				F8072717229BBA110011C28F /* video_1.mp4 in Resources */,
+				F8F428A522B34DF100D0F7AF /* sssss.mp3 in Resources */,
 				F8072718229BBA110011C28F /* video_2.mp4 in Resources */,
 				F807271F229BC1110011C28F /* 321.mp3 in Resources */,
 				F8072703229BB83E0011C28F /* LaunchScreen.storyboard in Resources */,
 				F8072700229BB83E0011C28F /* Assets.xcassets in Resources */,
 				F8072713229BBA110011C28F /* image_2.jpg in Resources */,
 				F8072716229BBA110011C28F /* audio_2.mp3 in Resources */,
+				F8F4289A22B2317D00D0F7AF /* Contemplate.ogg in Resources */,
 				F80726FE229BB83C0011C28F /* Main.storyboard in Resources */,
 				F8072715229BBA110011C28F /* image_1.jpg in Resources */,
 				F8072721229BC1110011C28F /* 54321.mp3 in Resources */,
 				F8072720229BC1110011C28F /* dian.mp3 in Resources */,
+				F8EA342222BB3328001FC462 /* rain_test.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18320ACC99C6F8B622C60BC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MGAudioElite/Pods-MGAudioElite-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MGAudioElite/Pods-MGAudioElite-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MGAudioElite/Pods-MGAudioElite-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C318D763D9FC0718C0D0FD4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MGAudioElite-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F80726EF229BB83C0011C28F /* Sources */ = {
@@ -350,6 +430,7 @@
 		};
 		F807270A229BB83E0011C28F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43EA1C6CB470F31626BF52E2 /* Pods-MGAudioElite.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -368,6 +449,7 @@
 		};
 		F807270B229BB83E0011C28F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281CE3AF3328C1FB791A7AEC /* Pods-MGAudioElite.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -11,7 +11,10 @@
 #import "MGAudioTypeOption.h"
 @interface ViewController ()
 
-
+@property (weak, nonatomic) IBOutlet UIButton *audioBtn1;
+@property (weak, nonatomic) IBOutlet UIButton *audioBtn2;
+@property (weak, nonatomic) IBOutlet UIButton *audioBtn3;
+@property (weak, nonatomic) IBOutlet UIButton *audioBtn4;
 @property (nonatomic, strong) NSMutableArray *musiceNameArray;
 
 @end
@@ -35,7 +38,7 @@
     
     NSLog(@"value2: %f", sender.value);
     
-    [[MGAudioPlayTool sharedAudioPlayTool] setupPlayerVolume:sender.value musiceName:MGAuidoTypeFantasy];
+    [[MGAudioPlayTool sharedAudioPlayTool] setupPlayerVolume:sender.value musiceName:@"sssss"];
 }
 - (IBAction)clickPlayMusiceBtn:(id)sender {
 
@@ -55,7 +58,7 @@
     sender.selected = !sender.selected;
     NSString *name = nil;
     if (sender.tag == 0) {
-        name = MGAuidoTypeSoundOfTheWind;
+        name = @"rain_test";// MGAuidoTypeSoundOfTheWind;
         if(sender.selected) {
             [_musiceNameArray addObject:name];
         } else {
@@ -92,6 +95,12 @@
     if (!sender.selected) {
         [[MGAudioPlayTool sharedAudioPlayTool] removePlayingMusiceName:name];
     }
+}
+- (IBAction)removeAllAudio:(id)sender {
+    
+    self.audioBtn1.selected = self.audioBtn2.selected = self.audioBtn3.selected = self.audioBtn4.selected = NO;
+    [[MGAudioPlayTool sharedAudioPlayTool] removePlayingMusicePlayer];
+    
 }
 
 

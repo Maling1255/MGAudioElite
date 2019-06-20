@@ -1,0 +1,6 @@
+framework module Pods_MGAudioElite {
+  umbrella header "Pods-MGAudioElite-umbrella.h"
+
+  export *
+  module * { export * }
+}

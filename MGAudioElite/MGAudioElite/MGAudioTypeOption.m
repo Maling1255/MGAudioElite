@@ -11,4 +11,4 @@
 MGAuidoType const MGAuidoTypeSoundOfTheWind = @"audio_1";
 MGAuidoType const MGAuidoTypeFantasy = @"audio_2";
 MGAuidoType const MGAuidoTypeDiSonorant = @"dian";
-MGAuidoType const MGAuidoType321 = @"321";
+MGAuidoType const MGAuidoType321 = @"Contemplate";
